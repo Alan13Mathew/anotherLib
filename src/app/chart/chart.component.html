@@ -1,0 +1,18 @@
+<div>
+    <h2>{{ pieChartTitle.text }}</h2>
+    <apx-chart 
+      [series]="pieChartSeries" 
+      [chart]="pieChartOptions">
+    </apx-chart>
+  </div>
+  
+  <div>
+    <h2>{{ barChartTitle.text }}</h2>
+    <apx-chart 
+      [series]="barChartSeries" 
+      [chart]="barChartOptions" 
+      [xaxis]="barChartXAxis" 
+      [plotOptions]="barChartPlotOptions">
+    </apx-chart>
+  </div>
+  

@@ -1,0 +1,13 @@
+/* Define the width and height for the carousel */
+ngb-carousel {
+    width: 500px; /* Set the desired width */
+    height: 500px; /* Set the desired height */
+    margin: 0 auto; /* Center the carousel */
+  }
+  
+  .picsum-img-wrapper img {
+    width: 100%; /* Make sure the image takes the full width of the carousel */
+    height: 100%; /* Make sure the image takes the full height */
+    object-fit: cover; /* Adjusts how the image fits inside the container */
+  }
+  
